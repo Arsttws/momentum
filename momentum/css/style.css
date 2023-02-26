@@ -36,7 +36,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 120px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .play-list {
@@ -288,6 +288,76 @@ ul li::before{
 }
 .Summer_title.playing::before{
   color: #C5B358;
+}
+.progress-bar-container{
+  width: 120px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 4px;
+  opacity: .8;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.progress-bar{
+  height: 4px;
+  /* width: 40px; */
+  background-color: #C5B358;
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.audio-bar-container{
+  width: 80px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 4px;
+  opacity: .8;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: auto 0;
+  margin-right: 20px !important;
+}
+.audio-bar{
+  height: 4px;
+  width: 40px;
+  background-color: #C5B358;
+  border-radius: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.sound-control{
+  display: flex;
+}
+.sound-control img{
+  max-height: 20px;
+}
+.NoSound{
+  display: none;
+}
+.LowSound{
+  display: none;
+}
+.MidSound{
+  display: none;
+}
+.FullSound{
+  display: none;
+}
+.NoSound.flex{
+  display: flex;
+}
+.LowSound.flex{
+  display: flex;
+}
+.MidSound.flex{
+  display: flex;
+}
+.FullSound.flex{
+  display: flex;
 }
 @media (max-width: 768px) {
   .time {
